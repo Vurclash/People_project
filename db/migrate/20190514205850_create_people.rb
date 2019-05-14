@@ -3,10 +3,10 @@ class CreatePeople < ActiveRecord::Migration[5.2]
     create_table :people do |t|
       t.string :first_name
       t.string :last_name
-      t.integer :age
       t.string :hair_color
       t.string :eye_color
       t.string :gender
+      t.integer :age
       t.boolean :alive
 
       t.timestamps
